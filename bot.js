@@ -18,6 +18,12 @@ client.on("message", (message) => {
   } else
   if (message.content.toLowerCase().startsWith(prefix + "cute")) {
     message.channel.send("Ahahaha, thank you!");
+  } else
+  if (message.content.toLowerCase().startsWith(prefix + "akeno")) {
+    message.channel.send("The best twin, brother, friend and bunk buddy EVER! If he ever left my side, I'd be lost as hell.");
+  } else
+  if (message.content.toLowerCase().startsWith(prefix + "zaire")) {
+    message.channel.send("Ahuu... Well... I.... Heheh... I love him a lot! Some people might not like  him but... He's really kind, handsome, funny, charming... I don't know what I'd do without him!");
   }
 });
 
