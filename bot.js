@@ -19,6 +19,9 @@ client.on("message", (message) => {
   if (message.content.toLowerCase().startsWith(prefix + "cute")) {
     message.channel.send("Ahahaha, thank you!");
   } else
+  if (message.content.toLowerCase().startsWith(prefix + "zcute")) {
+    message.channel.send("A-Ah... Zaire, that's... embarassing...");
+  } else
   if (message.content.toLowerCase().startsWith(prefix + "akeno")) {
     message.channel.send("The best twin, brother, friend and bunk buddy EVER! If he ever left my side, I'd be lost as hell.");
   } else
@@ -45,6 +48,12 @@ client.on("message", (message) => {
   } else
   if (message.content.toLowerCase() === "i love jiro") {
       message.channel.send("Really? I'm flattered! I love you too- well, not in the romantic way of course! Unless you're... hehe...");
+      
+      //flirts
+      
+  } else
+  if (message.content.toLowerCase() === "Is that a telescope in your pants or are you just happy to see me?") {
+      message.channel.send("Hehehe you can't fit a telescope in your pants, silly!");
   }
 });
 
