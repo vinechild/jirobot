@@ -35,7 +35,7 @@ client.on("message", (message) => {
     message.channel.send("Momzuki! More of a mom than my own mom, honestly. I know she doesn't really like Zaire much, at least from what I can tell, but... I'm glad I have her as a friend. She's very important to me.");
   } else
   if (message.content.toLowerCase().startsWith(prefix + "space")) {
-    message.channel.send("**AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA**");
+    message.channel.send("**AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA**");
   } else
   if (message.content.toLowerCase().startsWith(prefix + "smooch")) {
     message.channel.send("A-Ahh! H-Hey! I have a significant other! I-I'm not a cheater, so please don't do that...");
@@ -59,7 +59,24 @@ client.on("message", (message) => {
   } else
   if (message.content.toLowerCase() === "zaire: is that a telescope in your pants or are you just happy to see me?") {
       message.channel.send("A-Ah... Come on now, Zaire! Y-You shouldn't say that in public... People might t-think something bad...");
-  }
+      
+      //quotes
+  } else
+  if (message.content.toLowerCase().startsWith(prefix + "quote")) {
+      var phrase = Math.round(2*Math.random());
+    switch(phrase)
+    {
+        case 0:
+            message.channel.send("Hey!");
+        break;
+        case 1:
+            message.channel.send("Listen!");
+        break;
+        case 2:
+            message.channel.send("Watch out!");
+        break;
+    }
+      
 });
 
 // THIS  MUST  BE  THIS  WAY
