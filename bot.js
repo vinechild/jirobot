@@ -11,7 +11,7 @@ client.on("message", (message) => {
     //all my random shit
     
   if (message.content.toLowerCase().startsWith(prefix + "ping")) {
-    message.channel.send("Ping...?");
+    message.channel.send("Ping...? Oh- OH! Pong!");
   } else
   if (message.content.toLowerCase().startsWith(prefix + "foo")) {
     message.channel.send("Uhh... fighters?");
