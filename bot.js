@@ -28,8 +28,17 @@ client.on("message", (message) => {
   if (message.content.toLowerCase().startsWith(prefix + "tsuki")) {
     message.channel.send("My one and only daughter! She's adopted, sure, but.... That doesn't mean I don't love her as much as I would if she was blood related. She's special to me, and... I think she's a sign that me and Zaire work together fine, despite our differences.");
   } else
+  if (message.content.toLowerCase().startsWith(prefix + "mizuki")) {
+    message.channel.send("Momzuki! More of a mom than my own mom, honestly. I know she doesn't really like Zaire much, at least from what I can tell, but... I'm glad I have her as a friend. She's very important to me.");
+  } else
   if (message.content.toLowerCase().startsWith(prefix + "space")) {
-    message.channel.send("**AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA**");
+    message.channel.send("**AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA**");
+  } else
+  if (message.content.toLowerCase().startsWith(prefix + "smooch")) {
+    message.channel.send("A-Ahh! H-Hey! I have a significant other! I-I'm not a cheater, so please don't do that...");
+  } else
+  if (message.content.toLowerCase().startsWith(prefix + "zsmooch")) {
+    message.channel.send("Hehehe... Thanks, Zaire. I love you too... Hehe.:sparkling_heart:");
       
       //prompt commands
       
