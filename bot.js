@@ -52,7 +52,7 @@ client.on("message", (message) => {
       //flirts
       
   } else
-  if (message.content.toLowerCase() === "Is that a telescope in your pants or are you just happy to see me?") {
+  if (message.content.toLowerCase() === "is that a telescope in your pants or are you just happy to see me?") {
       message.channel.send("Hehehe you can't fit a telescope in your pants, silly!");
   }
 });
