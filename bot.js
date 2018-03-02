@@ -8,7 +8,7 @@ client.on('ready', () => {
 const prefix = "j!";
 client.on("message", (message) => {
     
-    //all my random shit
+    //prefix commands
     
   if (message.content.toLowerCase().startsWith(prefix + "ping")) {
     message.channel.send("Ping...? Oh- OH! Pong!");
@@ -24,6 +24,11 @@ client.on("message", (message) => {
   } else
   if (message.content.toLowerCase().startsWith(prefix + "zaire")) {
     message.channel.send("Ahuu... Well... I.... Heheh... I love him a lot! Some people might not like  him but... He's really kind, handsome, funny, charming... I don't know what I'd do without him!");
+
+      //prompt commands
+  } else
+  if (message.content.toLowerCase() === "i love jiro") {
+      message.channel.send("Really? I'm flattered! I love you too- well, not in the romantic way of course! Unless you're... hehe...");
   }
 });
 
