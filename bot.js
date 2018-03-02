@@ -49,11 +49,16 @@ client.on("message", (message) => {
   if (message.content.toLowerCase() === "i love jiro") {
       message.channel.send("Really? I'm flattered! I love you too- well, not in the romantic way of course! Unless you're... hehe...");
       
-      //flirts
+      //anon flirts
       
   } else
   if (message.content.toLowerCase() === "is that a telescope in your pants or are you just happy to see me?") {
       message.channel.send("Hehehe you can't fit a telescope in your pants, silly!");
+      
+      //zaire flirts
+  } else
+  if (message.content.toLowerCase() === "zaire: is that a telescope in your pants or are you just happy to see me?") {
+      message.channel.send("A-Ah... Come on now, Zaire! Y-You shouldn't say that in public... People might t-think something bad...");
   }
 });
 
