@@ -63,7 +63,7 @@ client.on("message", (message) => {
       //quotes
   } else
   if (message.content.toLowerCase().startsWith(prefix + "quote")) {
-      var phrase = Math.round(2*Math.random());
+   (var phrase = Math.round(2*Math.random());
     switch(phrase)
     {
         case 0:
