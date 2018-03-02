@@ -24,8 +24,15 @@ client.on("message", (message) => {
   } else
   if (message.content.toLowerCase().startsWith(prefix + "zaire")) {
     message.channel.send("Ahuu... Well... I.... Heheh... I love him a lot! Some people might not like  him but... He's really kind, handsome, funny, charming... I don't know what I'd do without him!");
-
+  } else
+  if (message.content.toLowerCase().startsWith(prefix + "tsuki")) {
+    message.channel.send("My one and only daughter! She's adopted, sure, but.... That doesn't mean I don't love her as much as I would if she was blood related. She's special to me, and... I think she's a sign that me and Zaire work together fine, despite our differences.");
+  } else
+  if (message.content.toLowerCase().startsWith(prefix + "space")) {
+    message.channel.send("**AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA**");
+      
       //prompt commands
+      
   } else
   if (message.content.toLowerCase() === "i love jiro") {
       message.channel.send("Really? I'm flattered! I love you too- well, not in the romantic way of course! Unless you're... hehe...");
